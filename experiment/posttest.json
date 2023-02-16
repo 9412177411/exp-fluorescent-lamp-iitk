@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The light of fluorescent tube appears cooler than that from an incandescent lamp. This is due to the fact that",
+      "question": "1.The light of fluorescent tube appears cooler than that from an incandescent lamp. This is due to the fact that",
       "answers": {
         "a": "The tube consumes less power",
         "b": "Surface area of tube is larger than that of the incandescent lamp",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": " _______ method is used to start the discharge process of fluorescent tube.",
+      "question": "2. _______ method is used to start the discharge process of fluorescent tube.",
       "answers": {
         "a": "Thermal Starter",
         "b": "Quick/Instant start",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
       },
     {
-      "question": "Which of the following lamp employs a bimetallic strip?",
+      "question": "3.Which of the following lamp employs a bimetallic strip?",
       "answers": {
         "a": "Sodium vapor",
         "b": "Fluroscent lamp",
@@ -53,7 +53,7 @@
       "difficulty": "beginner",
      },
     {
-      "question": "The efficiency of a fluorescent lamp is________.",
+      "question": "4.The efficiency of a fluorescent lamp is________.",
       "answers": {
         "a": "50 lumens per watt",
         "b": "25 lumens per watt",
