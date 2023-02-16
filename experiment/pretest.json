@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "How starter and choke coil are connected with the fluorescent lamp in single phase circuit?",
+      "question": "1.How starter and choke coil are connected with the fluorescent lamp in single phase circuit?",
       "answers": {
         "a": "Series and parallel",
         "b": "Series and series",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which gas is used in the fluorescent lamp?",
+      "question": "2.Which gas is used in the fluorescent lamp?",
       "answers": {
         "a": "Argon",
         "b": "Neon",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
       },
     {
-      "question": "What is the use choke coil in the fluorescent lamp (tube light) circuit?",
+      "question": "3.What is the use choke coil in the fluorescent lamp (tube light) circuit?",
       "answers": {
         "a": "Increases the current in the fluorescent lamp.",
         "b": "Increases the voltage in the fluorescent lamp.",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
       },
     {
-      "question": "How to calculate the power factor of any single-phase circuit?",
+      "question": "4.How to calculate the power factor of any single-phase circuit?",
       "answers": {
         "a": "PF= Wattmeter Reading / (Voltmeter Reading× Ammeter Reading).",
         "b": "PF= (Voltmeter Reading× Ammeter Reading)/ Wattmeter Reading).",
