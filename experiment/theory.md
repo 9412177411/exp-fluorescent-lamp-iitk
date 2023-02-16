@@ -41,5 +41,5 @@ Circuit diagram shown below is the connection diagram of a fluorescent lamp, sta
 choke coil. In this circuit when the 1-phase supply is applied then the measurement of
 power consumption of fluorescent lamp is done with the help of wattmeter. Finally with the help of wattmeter, ammeter and voltmeter the power factor of circuit is calculated
 
-![image](https://user-images.githubusercontent.com/117304603/217719572-6001333c-364b-41f8-aef4-2c1e86982b08.png)
+
 
