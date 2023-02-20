@@ -1,5 +1,4 @@
 //Your JavaScript goes in here
-//Your JavaScript goes in here
 var enableButton = document.getElementById("enable");
 var tubeButton = document.getElementById("tube-button");
 var chokeButton = document.getElementById("chock-button");
