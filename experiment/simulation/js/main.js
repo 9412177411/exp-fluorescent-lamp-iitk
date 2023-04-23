@@ -10,12 +10,45 @@ var supplyButton = document.getElementById("supply-button")
 var connectButton = document.getElementById("connect-button")
 var factorButton1 = document.getElementById("factor-1")
 var factorButton2 = document.getElementById("factor-2")
+var text1=document .getElementById("demo1").value;
+var text2=document .getElementById("demo2").value;
+var text3=document .getElementById("demo3");
+let myText1="";
+let myText2="";
+let myText3="";
+let count=0;
+let  mytext1="";
+let  mytext2="";
+let  mytext3="";
+function gettext(id) {
+    if (id == 'myText1') {
+        myText1 = document.getElementById(id).value;
+        document.getElementById("demo1").innerHTML =  myText1 ;
+         mytext1 = document.getElementById("demo1").innerHTML;
+         console.log(mytext1);
+    }
 
+    if(id=='myText2'){
+    myText2=document.getElementById(id).value;
+    document.getElementById("demo2").innerHTML=myText2;
+    mytext2=document.getElementById("demo2").innerHTML;
+    }
+    if(id=='myText3'){
+        myText3=document.getElementById(id).value;
+        document.getElementById("demo3").innerHTML=myText3;
+        mytext3=document.getElementById("demo3").innerHTML;
+        }
 
-var count = 0;
+}
+
 
 function power(){
-    if(count==0){
+    mytext1=mytext1.trim();
+mytext2=mytext2.trim();
+mytext3=mytext3.trim();
+if(mytext1=="voltmeter"&&mytext2=="flourescentlamp"&&mytext3=="starter"){
+   
+    if(mytext1=="voltmeter" &&count==0){
         enableButton.style.backgroundColor="#4cae4c"
         tubeButton.disabled=false;
         document.getElementById("steps").innerHTML="Instructions : Click Flourescent Tube Button"
@@ -27,6 +60,11 @@ function power(){
         count=0
     }
 }
+else{
+    alert("label correctly");
+}
+}
+
 
 
 
@@ -94,7 +132,6 @@ function showWattmeter(){
     if(count==6){
         //code svg image of wattmeter here
         document.getElementById("power").style.visibility="visible";
-        //
         document.getElementById("steps").innerHTML="Instructions : Click on 1-phase supply Button"
         supplyButton.disabled=false;
         count+=1
